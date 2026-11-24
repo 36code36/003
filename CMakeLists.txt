@@ -19,7 +19,7 @@ juce_add_plugin(MultiKeys
     PRODUCT_NAME "MultiKeys"
     COPY_PLUGIN_AFTER_BUILD FALSE)
 
-target_sources(MultiKeys PRIVATE Source/PluginProcessor.cpp Source/PluginProcessor.h)
+target_sources(MultiKeys PRIVATE PluginProcessor.cpp PluginProcessor.h)
 
 target_compile_definitions(MultiKeys PUBLIC
     JUCE_WEB_BROWSER=0 JUCE_USE_CURL=0 JUCE_VST3_CAN_REPLACE_VST2=0)
