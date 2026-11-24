@@ -280,9 +280,3 @@ void MultiKeysProcessor::setStateInformation (const void* data, int size)
 }
 
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter() { return new MultiKeysProcessor(); }
-
-      - name: Configure
-        run: cmake -S MultiKeys -B build -DCMAKE_BUILD_TYPE=Release
-
-      - name: Build
-        run: cmake --build build --config Release
