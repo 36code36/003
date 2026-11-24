@@ -41,4 +41,4 @@ private:
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MultiKeysProcessor)
 };
-target_sources(MultiKeys PRIVATE PluginProcessor.cpp PluginProcessor.h)
+
