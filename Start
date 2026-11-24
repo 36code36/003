@@ -1,9 +1,0 @@
-yaml
-steps:
-  - uses: actions/checkout@v4
-    with:
-      submodules: recursive   # needed if JUCE is a git submodule
-  - name: Configure
-    run: cmake -B build -DCMAKE_BUILD_TYPE=Release
-  - name: Build
-    run: cmake --build build --config Release
