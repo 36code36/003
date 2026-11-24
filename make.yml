@@ -22,3 +22,4 @@ jobs:
         with:
           name: MultiKeys-VST3
           path: build/MultiKeys_artefacts/Release/VST3/ 
+ 
